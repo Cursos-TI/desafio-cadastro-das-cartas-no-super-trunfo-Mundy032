@@ -23,5 +23,27 @@ int main() {
         casa_rainha++;
     } while (casa_rainha <= 8);
 
+     // Definindo o número de casas a serem movidas como variáveis
+     int casas_baixo = 2;
+     int casas_esquerda = 1;
+ 
+     // Movimento do Cavalo
+     printf("\nMovimento do Cavalo:\n");
+ 
+     // Loop para mover duas casas para baixo
+     for (int i = 0; i < casas_baixo; i++) {
+         printf("Baixo\n");
+     }
+ 
+     // Loop para mover uma casa para a esquerda
+     int j = 0;
+     while (j < casas_esquerda) {
+         printf("Esquerda\n");
+         j++;
+    
+    
+    
     return 0;
+
+
 }
